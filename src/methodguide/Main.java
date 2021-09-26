@@ -6,12 +6,14 @@ package methodguide;
  * @author JoseMejia62
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
+    
+    public static void methodName(){
+        System.out.println("Code to executed when the method is call");
+    }
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Call a Method
+        
+        methodName();
     }
     
 }
