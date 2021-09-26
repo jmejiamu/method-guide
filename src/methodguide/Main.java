@@ -10,10 +10,15 @@ public class Main {
     public static void methodName(){
         System.out.println("Code to executed when the method is call");
     }
+    
+    public static void passingParams(String name){
+        System.out.println("Hello, " + name + "!");
+    }
     public static void main(String[] args) {
         // Call a Method
-        
         methodName();
+        
+        passingParams("Twitter");
     }
     
 }
